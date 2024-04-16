@@ -15,7 +15,7 @@ while(usersChoice !== computerFave){
 
     usersChoice = parseInt (readline.question("What is your favourite number?: "))
     if (usersChoice !== computerFave){
-        console.log("I guess we don't have the same favourite number. Try Again?")
+        console.log("I guess we don't have the same favourite number. Mine is between 1 and 10, and does not change. Try Again?")
         }
        
 }
